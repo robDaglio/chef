@@ -1,19 +1,19 @@
 # Docker Credentials
-default[:redis][:docker][:user] = 'kbadmin'
-default[:redis][:docker][:pass] = 'Sck2Support'
-default[:redis][:docker][:url] = 'docker.mysck.net'
-default[:redis][:docker][:email] = 'helpdesk@kitchenbrains.com'
+default[:redis][:docker][:user] = ''
+default[:redis][:docker][:pass] = ''
+default[:redis][:docker][:url] = ''
+default[:redis][:docker][:email] = ''
 
 # Docker Repositories
-default[:redis][:docker][:third_party_repo] = 'third-party'
+default[:redis][:docker][:third_party_repo] = ''
 
 # Docker Images
-default[:redis][:docker][:redis_img_name] = 'redis'
-default[:redis][:docker][:redis_img_tag] = '6.2.6'
-default[:redis][:docker][:redis_img_full_name] = 'docker.mysck.net/third-party/redis'
+default[:redis][:docker][:redis_img_name] = ''
+default[:redis][:docker][:redis_img_tag] = ''
+default[:redis][:docker][:redis_img_full_name] = ''
 
 # Database directory
-default[:redis][:db][:redis_db] = '/opt/redis'
+default[:redis][:db][:redis_db] = ''
 
 # OS
-default[:redis][:os][:user] = 'sck'
+default[:redis][:os][:user] = ''
