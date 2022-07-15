@@ -1,0 +1,36 @@
+{
+  "name": "mqtt",
+  "description": "Installs/Configures mqtt",
+  "long_description": "",
+  "maintainer": "Rob Daglio",
+  "maintainer_email": "saasteam@kitchenbrains.com",
+  "license": "All Rights Reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "1.0.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+    [
+      ">= 15.0"
+    ]
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ],
+  "eager_load_libraries": true
+}
